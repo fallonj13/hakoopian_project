@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hakoopians</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="hero">
+    <div class="navbar">
+        <div class="logo">
+        </div>  
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="Gallery/index.html">Work</a></li>
+                <li><a href="About/index.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            <p class="lite-text">MENU</p>
+            <img src="img/cross.png" class="close-icon" onclick="closemenu()">
+        </nav>
+        <img src="img/menu.png" class="menu-icon" onclick="openmenu()">
+        
+    </div>
+
+    <div class="name">
+        <h4><em>The</em></h4>
+        <h1>Hakoopians</h1>
+        <hr/>
+        <p>Design Source Collective</p>  
+     </div>
+
+    <div class="link">
+        <h3>Schedule a consultation</h3>
+    </div>
+    
+   
+    
+    <div class="sidebar">
+        <div class="icon-box">
+            <div class="side-text">
+                Paint
+            </div>
+            <div class="icon">
+                <i class="fa fa-paint-brush" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="icon-box">
+            <div class="side-text">
+                Repair
+            </div>
+            <div class="icon">
+                <i class="fa fa-wrench" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="icon-box">
+            <div class="side-text">
+                Architecture
+            </div>
+            <div class="icon">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="icon-box">
+            <div class="side-text">
+                Bath
+            </div>
+            <div class="icon">
+                <i class="fa fa-bath" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="icon-box">
+            <div class="side-text">
+                Furniture
+            </div>
+            <div class="icon">
+                <i class="fa fa-bed" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="icon-box">
+            <div class="side-text">
+                Your Queries
+            </div>
+            <div class="icon">
+                <i class="fa fa-quora"></i>
+            </div>
+        </div>
+
+        <div class="social">
+
+        </div>
+           
+    </div>  
+    </div>
+</div>    
+
+
+<script>
+    var menu = document.getElementById("menu");
+
+    function closemenu(){
+
+        menu.style.top = "-100vh";
+    }
+    function openmenu(){
+
+        menu.style.top = "0";
+    }    
+
+</script>
+
+
+</body>
+
+</html>

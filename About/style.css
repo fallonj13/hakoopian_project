@@ -1,0 +1,232 @@
+
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ 
+}
+
+body{ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    background-size: cover;  
+    position: relative; 
+}
+
+.navbar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+.link h3{
+    margin-top: 200px;
+    color: white;
+}
+
+.link h3:hover{
+    color: rgb(87, 185, 250);
+    text-shadow: 0 0 10px #6de5ee,
+                 0 0 20px #6de5ee,
+                 0 0 40px #6de5ee,
+                 0 0 80px #6de5ee,
+                 0 0 120px #6de5ee;
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    color: white;
+    background-color: black;
+    background-size: cover;
+   
+}
+
+.content-section{
+    float: left;
+    width: 50%;
+    
+}
+
+.image-section{
+    float: right;
+    width: 40%;
+    
+}   
+
+
+.image-section img{
+    width: 100%;
+    height: auto;
+    margin-top: 40%;
+    border: 10px solid white;
+
+}
+
+.content-section .intro{
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.content-section .content {
+    margin-top: 0px;
+    text-align: center;
+    
+
+}
+
+.intro h1{
+    font-family: 'Kristi', cursive;
+    transform: rotate( -15deg);
+    margin-top: 0%;
+}
+
+.content p{
+    font-family: 'Big Shoulders Display', san-serif;
+    font-size: 18px;
+    margin-top: 0%;
+   
+}
+
+.content img {
+    width: 300px;
+    height: 60px;
+    margin-top: 5%;
+    transform: rotate(-15deg);
+    
+}
+
+.outline {
+    float: right;
+    width: 40%;
+}
+
+.outline img{
+    width: 100%;
+    height: 300px;
+    margin-top: -90%;
+    transform: rotate(-15deg);
+    
+    
+}
+
+/*------------------*/
+
+nav ul li{
+    list-style: none;
+    margin: 35px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 5px;
+    position: relative;
+   
+}
+
+nav ul li a::after{
+    content:'';
+    height: 3px;
+    background: #6de5ee;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    z-index: 2;
+    top: -100vh;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 1s;
+}
+
+.lite-text{
+   color: rgb(77, 76, 76);
+   font-size: 200px;
+   letter-spacing: 100px;
+   opacity: 0.1;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   font-weight: 800;
+   z-index: -1; 
+}
+
+.close-icon{
+    width: 25px;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    margin-top: 20px;
+    right: 80px;
+    width: 30px;
+    cursor: pointer;
+}
+/*--------------*/
+@media screen and (max-width: 700px){
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+   
+}
+.content-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+.image-section{
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+

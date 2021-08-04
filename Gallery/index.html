@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0" />
+    <title>Gallery</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+        </div>  
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="../Gallery/index.html">Work</a></li>
+                <li><a href="../About/index.html">About</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+            <p class="lite-text">MENU</p>
+            <img src="../img/cross.png" class="close-icon" onclick="closemenu()">
+        </nav>
+        <img src="../img/menu.png" class="menu-icon" onclick="openmenu()">
+    </div>
+    <div class="image-gallery">
+        <div class="image-box">
+            <img src="../img/img-1.jpg" alt="img.jpg"/>
+            <div class="overlay">
+                <div class="details">
+                    <h3 class="title">
+                        <h3>Windsor Project</h3>
+                    </h3>
+                    <span class="category">
+                        <a href="windsor/index.html">View</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+            <div class="image-box">
+                <img src="../img/img-2.jpg" alt="img.jpg"/>
+                <div class="overlay">
+                    <div class="details">
+                        <h3 class="title">
+                            <h3>Chanruss Project</h3>
+                        </h3>
+                        <span class="category">
+                            <a href="chanruss/index.html">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="../img/img-3.jpg" alt="img.jpg"/>
+                <div class="overlay">
+                    <div class="details">
+                        <h3 class="title">
+                            <h3>Poway Project</h3>
+                        </h3>
+                        <span class="category">
+                            <a href="Poway/index.html">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="../img/img-4.jpg" alt="img.jpg"/>
+                <div class="overlay">
+                    <div class="details">
+                        <h3 class="title">
+                        <h3>Vancouver, B.C. Project</h3>
+                        </h3>
+                        <span class="category">
+                            <a href="Vancouver/index.html">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="../img/img-5.jpg" alt="img.jpg"/>
+                <div class="overlay">
+                    <div class="details">
+                        <h3 class="title">
+                            <h3>Malibu Project</h3>
+                        </h3>
+                        <span class="category">
+                            <a href="Malibu/index.html">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="../img/img-6.jpg" alt="img.jpg"/>
+                <div class="overlay">
+                    <div class="details">
+                        <h3 class="title">
+                            <h3>Correa Way Project </h3>
+                        </h3>
+                        <span class="category">
+                            <a href="Correa/index.html">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="../img/img-7.jpg" alt="img.jpg"/>
+                <div class="overlay">
+                    <div class="details">
+                        <h3 class="title">
+                            <h3>Venice Project</h3>
+                        </h3>
+                        <span class="category">
+                            <a href="Venice/index.html">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box">
+                <img src="../img/img-8.jpg" alt="img.jpg"/>
+                <div class="overlay">
+                    <div class="details">
+                        <h3 class="title">
+                            <h3>Wallace Ridge Project</h3>
+                        </h3>
+                        <span class="category">
+                            <a href="Wallace Ridge/index.html">View</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script>
+        var menu = document.getElementById("menu");
+    
+        function closemenu(){
+    
+            menu.style.top = "-100vh";
+        }
+        function openmenu(){
+    
+            menu.style.top = "0";
+        }    
+    
+    </script>
+
+</body>
+</html>

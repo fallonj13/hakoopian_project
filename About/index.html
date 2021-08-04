@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kristi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap" rel="stylesheet">
+</head>    
+<body>
+
+   <div class="section">
+        <div class="navbar">
+            <div class="logo">
+            </div> 
+        
+         
+            <nav id="menu">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="../Gallery/index.html">Work</a></li>
+                <li><a href="About/index.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            <p class="lite-text">MENU</p>
+                <img src="../img/cross.png" class="close-icon" onclick="closemenu()">
+            </nav>
+                <img src="../img/menu.png" class="menu-icon" onclick="openmenu()">
+        </div>
+        <div class="container">
+            <div class="content-section">
+                <div class="intro">
+                    <h1>Hello There! <br> I'm Trish Hakoopian</h1> 
+                </div>  
+                <div class="content"> 
+                    <p>We know that Trish is an elegantly commanding force within the community. The balance of sophistication and approachability she embodies is impactful and memorable.
+                       Trish treats design as a journey, not as a product. Design Build + Procurement services are her pleasure and passion. She consistently achieves luxury at every level, demonstrating adaptability within her substantial range, while delivering innovation, intention, and an inimitable experience of satisfaction.<br>
+                       Trish doesn’t maintain comfort zones, even as she purposefully creates them for the clients she respects deeply.<br>
+                       A purposeful problem-solver, with an expressive and expansive interior design and development portfolio, Trish collaborates readily and with distinction. She executes her vision practically and perfectly, with a steady focus on architectural detail and the colorful textures of artful lifestyles.<br>
+                       Be it a full service design project, procurement for other talented industry professionals or build and management services. Trish has spent 10 years developing her portfolio, experience and enjoys a new challenge everyday. When shit hits the fan as she likes to say she is there to walk it out with her clients setting them at ease. She leads her team of collective professionals to service your project with knowledge and execution.</p>
+                       <img src="../img/blue.png" alt="paint" id="stroke"/>
+                </div> 
+            </div>    
+                <div class="image-section">
+                    <img src="../img/trish.png" alt="Trish" id="image"/>
+                </div>
+                <div class="outline">    
+                    <img src="../img/square.png" alt="outline" id="square"/>
+                </div>
+        </div>   
+        
+    </div>    
+    <script>
+        var menu = document.getElementById("menu");
+    
+        function closemenu(){
+    
+            menu.style.top = "-100vh";
+        }
+        function openmenu(){
+    
+            menu.style.top = "0";
+        }    
+    
+    </script>
+    
+</body>
+</html>
